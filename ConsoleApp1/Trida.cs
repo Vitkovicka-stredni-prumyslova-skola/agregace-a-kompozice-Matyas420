@@ -43,7 +43,18 @@ public class Trida
 
     public void VypisStudenty()
     {
-        // TODO
+        Console.WriteLine($"Třída: {Nazev}");
+
+        if (Studenti.Count == 0)
+        {
+            Console.WriteLine("Žádní studenti nejsou zapsání.");
+            return;
+        }
+
+        for (int i = 0; i < Studenti.Count; i++)
+        {
+            Console.WriteLine($"{i + 1}. {Studenti[1]}");
+        }
     }
 }
 }
