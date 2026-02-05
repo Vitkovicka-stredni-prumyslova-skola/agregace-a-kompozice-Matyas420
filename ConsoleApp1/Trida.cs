@@ -31,7 +31,14 @@ public class Trida
 
     public void OdeberStudenta(Student s)
     {
-        // TODO
+
+        if (s == null) throw new ArgumentNullException(nameof(s));
+
+        if (Studenti.Contains(s))
+            throw new InvalidEnumArgumentException("Student již je ve třídě zapsán.");
+        
+        Studenti.Remove(s);
+
     }
 
     public void VypisStudenty()
