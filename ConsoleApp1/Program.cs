@@ -4,7 +4,7 @@
     {
         public static void Main(string[] args)
         {
-            // TEST
+        /*
         var s1 = new Student("Jan", "Novák", 2);
         var s2 = new Student("Eva", "Svobodová", 2);
 
@@ -18,6 +18,7 @@
 
         trida.VypisStudenty();
         trida.TridniKniha.VypisDochazku(s1);
+        */
     }
             
         }
